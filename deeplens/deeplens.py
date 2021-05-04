@@ -91,13 +91,13 @@ class deeplens(object):
 
             if self.format == dict:
                 for dictionary in faceArray:
-                try:
-                    if not precise:
-                        facePercentage.append(round(dictionary["face"] * 100))
-                    else:
-                        facePercentage.append(dictionary["face"])
-                except KeyError:
-                    continue
+                    try:
+                        if not precise:
+                            facePercentage.append(round(dictionary["face"] * 100))
+                        else:
+                            facePercentage.append(dictionary["face"])
+                    except KeyError:
+                        continue
             elif self.format == str:
                 for dictionary in faceArray:
                     facePercentage.append(json.loads(dictionary))
@@ -111,21 +111,21 @@ class deeplens(object):
                     except KeyError:
                         continue
 
-			elif self.format == bytes:
-				for dictionary in faceArray:
-				facePercentage.append(json.loads(bytes.fromhex(dictionary)))
+	    elif self.format == bytes:
+	        for dictionary in faceArray:
+		    facePercentage.append(json.loads(bytes.fromhex(dictionary)))
 
-			for i in range(len(facePercentage)):
-				try:
-					if not precise:
-					faceRawPercentage.append(round(facePercentage[i]["face"] * 100))
-				else:
-					faceRawPercentage.append(facePercentage[i]["face"])
-				except KeyError:
-					continue
+		for i in range(len(facePercentage)):
+		    try:
+		        if not precise:
+			    faceRawPercentage.append(round(facePercentage[i]["face"] * 100))
+		        else:
+			    faceRawPercentage.append(facePercentage[i]["face"])
+		    except KeyError:
+		        continue
 
-			if self.format == str:
-				return faceStrPercentage
-			elif self.format == bytes:
-			return faceRawPercentage
-			return facePercentage
+	    if self.format == str:
+	        return faceStrPercentage
+	    elif self.format == bytes:
+	        return faceRawPercentage
+	    return facePercentage

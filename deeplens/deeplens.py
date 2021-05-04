@@ -29,10 +29,10 @@ class deeplens(object):
         Return format type as python class from first avaiable parsed key.
         '''
         topic0 = self.__d["messages"][0]["format"]
-    if topic0 == "string":
-        return str
+        if topic0 == "string":
+            return str
         elif topic0 == "raw":
-        return bytes
+            return bytes
         return dict
 
     @property

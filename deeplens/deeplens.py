@@ -111,7 +111,7 @@ class deeplens(object):
                     except KeyError:
                         continue
 			
-	    elif self.format == bytes:
+            elif self.format == bytes:
 		for dictionary in faceArray:
 		    facePercentage.append(json.loads(bytes.fromhex(dictionary)))
 

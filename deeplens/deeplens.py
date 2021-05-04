@@ -29,11 +29,11 @@ class deeplens(object):
         Return format type as python class from first avaiable parsed key.
         '''
         topic0 = self.__d["messages"][0]["format"]
-	if topic0 == "string":
-	    return str
-	elif topic0 == "raw":
-	    return bytes
-	return dict
+    if topic0 == "string":
+        return str
+        elif topic0 == "raw":
+        return bytes
+        return dict
 
     @property
     def timestamps(self):
@@ -53,8 +53,8 @@ class deeplens(object):
         averagePercent = 0.00
         for total in self.face(precise=False):
             averagePercent += total
-		
-	averagePercent = averagePercent / len(self.face(precise=True))
+        
+    averagePercent = averagePercent / len(self.face(precise=True))
         return averagePercent
 
     def min(self, precise=True):
@@ -64,7 +64,7 @@ class deeplens(object):
         if not precise:
             miniumChance = min(self.face(precise=False))
         else:
-	    miniumChance = min(self.face(precise=True))
+        miniumChance = min(self.face(precise=True))
         return miniumChance
 
     def max(self, precise=True):
@@ -82,50 +82,50 @@ class deeplens(object):
         Return float array of chance of face or use whole precentage numbers.
         '''
         faceArray = []
-	facePercentage = []
-	faceStrPercentage = []
-	faceRawPercentage = []
+        facePercentage = []
+        faceStrPercentage = []
+        faceRawPercentage = []
 
-	for arrayLength in range(len(self.__d["messages"])):
-	    faceArray.append(self.__d["messages"][arrayLength]["payload"])
+        for arrayLength in range(len(self.__d["messages"])):
+            faceArray.append(self.__d["messages"][arrayLength]["payload"])
 
-	    if self.format == dict:
-	        for dictionary in faceArray:
-		    try:
-		        if not precise:
-			    facePercentage.append(round(dictionary["face"] * 100))
-			else:
-			    facePercentage.append(dictionary["face"])
-		    except KeyError:
-		        continue
-	    elif self.format == str:
-	        for dictionary in faceArray:
-		    facePercentage.append(json.loads(dictionary))
-			
-		for i in range(len(facePercentage)):
-		    try:
-		        if not precise:
-			    faceStrPercentage.append(round(facePercentage[i]["face"] * 100))
-			else:
-			    faceStrPercentage.append(facePercentage[i]["face"])
-		    except KeyError:
-		        continue
+            if self.format == dict:
+                for dictionary in faceArray:
+                try:
+                    if not precise:
+                        facePercentage.append(round(dictionary["face"] * 100))
+                    else:
+                        facePercentage.append(dictionary["face"])
+                except KeyError:
+                    continue
+            elif self.format == str:
+                for dictionary in faceArray:
+                    facePercentage.append(json.loads(dictionary))
+            
+                for i in range(len(facePercentage)):
+                    try:
+                        if not precise:
+                            faceStrPercentage.append(round(facePercentage[i]["face"] * 100))
+                        else:
+                            faceStrPercentage.append(facePercentage[i]["face"])
+                    except KeyError:
+                        continue
 
-	    elif self.format == bytes:
-	        for dictionary in faceArray:
-		    facePercentage.append(json.loads(bytes.fromhex(dictionary)))
+			elif self.format == bytes:
+				for dictionary in faceArray:
+				facePercentage.append(json.loads(bytes.fromhex(dictionary)))
 
-		for i in range(len(facePercentage)):
-		    try:
-		        if not precise:
-			    faceRawPercentage.append(round(facePercentage[i]["face"] * 100))
-			else:
-			    faceRawPercentage.append(facePercentage[i]["face"])
-		    except KeyError:
-		        continue
+			for i in range(len(facePercentage)):
+				try:
+					if not precise:
+					faceRawPercentage.append(round(facePercentage[i]["face"] * 100))
+				else:
+					faceRawPercentage.append(facePercentage[i]["face"])
+				except KeyError:
+					continue
 
-	    if self.format == str:
-	        return faceStrPercentage
-	    elif self.format == bytes:
-		return faceRawPercentage
-	    return facePercentage
+			if self.format == str:
+				return faceStrPercentage
+			elif self.format == bytes:
+			return faceRawPercentage
+			return facePercentage

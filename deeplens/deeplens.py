@@ -54,7 +54,7 @@ class deeplens(object):
         for total in self.face(precise=False):
             averagePercent += total
         
-    averagePercent = averagePercent / len(self.face(precise=True))
+        averagePercent = averagePercent / len(self.face(precise=True))
         return averagePercent
 
     def min(self, precise=True):

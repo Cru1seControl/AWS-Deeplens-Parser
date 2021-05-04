@@ -64,7 +64,7 @@ class deeplens(object):
         if not precise:
             miniumChance = min(self.face(precise=False))
         else:
-        miniumChance = min(self.face(precise=True))
+            miniumChance = min(self.face(precise=True))
         return miniumChance
 
     def max(self, precise=True):

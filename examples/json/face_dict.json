@@ -1,0 +1,428 @@
+{
+  "topicFilter": "Placeholder topic",
+  "qos": 0,
+  "messages": [
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065602919,
+      "payload": {
+        "face": 1
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065601892,
+      "payload": {
+        "face": 1
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065600970,
+      "payload": {
+        "face": 1
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065600047,
+      "payload": {
+        "face": 1
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065599073,
+      "payload": {
+        "face": 1
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065598068,
+      "payload": {
+        "face": 1
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065597059,
+      "payload": {
+        "face": 1
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065596121,
+      "payload": {
+        "face": 0.9990234375
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065595073,
+      "payload": {
+        "face": 0.6513671875
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065594178,
+      "payload": {
+        "face": 0.58203125
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065593213,
+      "payload": {
+        "face": 0.7109375
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065592065,
+      "payload": {
+        "face": 0.91259765625
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065590981,
+      "payload": {
+        "face": 0.73046875
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065589914,
+      "payload": {
+        "face": 0.9990234375
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065588595,
+      "payload": {
+        "face": 1
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065586824,
+      "payload": {
+        "face": 1
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065585028,
+      "payload": {
+        "face": 0.9990234375
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065583650,
+      "payload": {
+        "face": 0.9921875
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065582647,
+      "payload": {
+        "face": 0.99609375
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065581595,
+      "payload": {
+        "face": 0.998046875
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065579632,
+      "payload": {
+        "face": 0.9931640625
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065577692,
+      "payload": {
+        "face": 0.9873046875
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065575475,
+      "payload": {
+        "face": 0.404052734375
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065573417,
+      "payload": {}
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065572494,
+      "payload": {
+        "face": 0.358642578125
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065571720,
+      "payload": {
+        "face": 0.99609375
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065570627,
+      "payload": {
+        "face": 0.998046875
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065569667,
+      "payload": {
+        "face": 0.413330078125
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065568792,
+      "payload": {
+        "face": 0.9912109375
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065567867,
+      "payload": {
+        "face": 0.99609375
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065566897,
+      "payload": {
+        "face": 0.99609375
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065565736,
+      "payload": {
+        "face": 0.9970703125
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065564838,
+      "payload": {
+        "face": 0.9970703125
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065563902,
+      "payload": {
+        "face": 0.9970703125
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065562841,
+      "payload": {
+        "face": 0.9970703125
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065561905,
+      "payload": {
+        "face": 0.998046875
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065560832,
+      "payload": {
+        "face": 0.9931640625
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065559941,
+      "payload": {
+        "face": 0.9921875
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065559055,
+      "payload": {
+        "face": 0.94189453125
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065558138,
+      "payload": {
+        "face": 0.9716796875
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065557184,
+      "payload": {
+        "face": 0.98193359375
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065556253,
+      "payload": {
+        "face": 0.9990234375
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065555096,
+      "payload": {
+        "face": 0.9951171875
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065554072,
+      "payload": {
+        "face": 1
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065553200,
+      "payload": {
+        "face": 1
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065553025,
+      "payload": {
+        "face": 1
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065551337,
+      "payload": {
+        "face": 1
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065550398,
+      "payload": {
+        "face": 0.7529296875
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065549419,
+      "payload": {
+        "face": 0.94287109375
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065548449,
+      "payload": {
+        "face": 0.30224609375
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065547554,
+      "payload": {
+        "face": 0.4814453125
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065546513,
+      "payload": {
+        "face": 0.43896484375
+      }
+    },
+    {
+      "format": "json",
+      "topic": "Placeholder topic",
+      "timestamp": 1620065545496,
+      "payload": {
+        "face": 0.338134765625
+      }
+    }
+  ]
+}

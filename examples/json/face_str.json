@@ -1,0 +1,66 @@
+{
+  "topicFilter": "Placeholder topic",
+  "qos": 0,
+  "messages": [
+    {
+      "format": "string",
+      "topic": "Placeholder topic",
+      "timestamp": 1620056484459,
+      "payload": "{\"face\": 0.5771484375}"
+    },
+    {
+      "format": "string",
+      "topic": "Placeholder topic",
+      "timestamp": 1620056483527,
+      "payload": "{\"face\": 0.86279296875}"
+    },
+    {
+      "format": "string",
+      "topic": "Placeholder topic",
+      "timestamp": 1620056482630,
+      "payload": "{\"face\": 0.357177734375}"
+    },
+    {
+      "format": "string",
+      "topic": "Placeholder topic",
+      "timestamp": 1620056481725,
+      "payload": "{\"face\": 0.5048828125}"
+    },
+    {
+      "format": "string",
+      "topic": "Placeholder topic",
+      "timestamp": 1620056480822,
+      "payload": "{\"face\": 0.509765625}"
+    },
+    {
+      "format": "string",
+      "topic": "Placeholder topic",
+      "timestamp": 1620056479896,
+      "payload": "{\"face\": 0.63232421875}"
+    },
+    {
+      "format": "string",
+      "topic": "Placeholder topic",
+      "timestamp": 1620056478947,
+      "payload": "{\"face\": 0.7001953125}"
+    },
+    {
+      "format": "string",
+      "topic": "Placeholder topic",
+      "timestamp": 1620056477933,
+      "payload": "{\"face\": 0.6298828125}"
+    },
+    {
+      "format": "string",
+      "topic": "Placeholder topic",
+      "timestamp": 1620056476895,
+      "payload": "{\"face\": 0.67626953125}"
+    },
+    {
+      "format": "string",
+      "topic": "Placeholder topic",
+      "timestamp": 1620056475846,
+      "payload": "{\"face\": 0.65966796875}"
+    }
+  ]
+}

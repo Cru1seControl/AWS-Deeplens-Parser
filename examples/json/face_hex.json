@@ -1,0 +1,54 @@
+{
+  "topicFilter": "Placeholder topic",
+  "qos": 0,
+  "messages": [
+    {
+      "format": "raw",
+      "topic": "Placeholder topic",
+      "timestamp": 1620062499264,
+      "payload": "7b2266616365223a20302e39373431323130393337357d"
+    },
+    {
+      "format": "raw",
+      "topic": "Placeholder topic",
+      "timestamp": 1620062497644,
+      "payload": "7b2266616365223a20302e393932313837357d"
+    },
+    {
+      "format": "raw",
+      "topic": "Placeholder topic",
+      "timestamp": 1620062496572,
+      "payload": "7b2266616365223a20302e393436323839303632357d"
+    },
+    {
+      "format": "raw",
+      "topic": "Placeholder topic",
+      "timestamp": 1620062495318,
+      "payload": "7b2266616365223a20302e393837333034363837357d"
+    },
+    {
+      "format": "raw",
+      "topic": "Placeholder topic",
+      "timestamp": 1620062493400,
+      "payload": "7b2266616365223a20312e307d"
+    },
+    {
+      "format": "raw",
+      "topic": "Placeholder topic",
+      "timestamp": 1620062491161,
+      "payload": "7b2266616365223a20302e383133343736353632357d"
+    },
+    {
+      "format": "raw",
+      "topic": "Placeholder topic",
+      "timestamp": 1620062489760,
+      "payload": "7b7d"
+    },
+    {
+      "format": "raw",
+      "topic": "Placeholder topic",
+      "timestamp": 1620062488787,
+      "payload": "7b2266616365223a20302e38383831383335393337357d"
+    }
+  ]
+}

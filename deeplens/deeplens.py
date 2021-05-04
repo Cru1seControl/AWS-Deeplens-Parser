@@ -37,13 +37,13 @@ class deeplens(object):
 
     @property
     def timestamps(self):
-    '''
-    Return timestamps as integer array from deeplens json.
-    '''
-    stampArray = []
-    for arrayLength in range(len(self.__d["messages"])):
-        stampArray.append(self.__d["messages"][arrayLength]["timestamp"])
-    return stampArray
+        '''
+        Return timestamps as integer array from deeplens json.
+        '''
+        stampArray = []
+        for arrayLength in range(len(self.__d["messages"])):
+            stampArray.append(self.__d["messages"][arrayLength]["timestamp"])
+        return stampArray
 
     @property
     def avg(self):

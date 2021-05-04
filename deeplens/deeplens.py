@@ -110,22 +110,22 @@ class deeplens(object):
                             faceStrPercentage.append(facePercentage[i]["face"])
                     except KeyError:
                         continue
-
+			
 	    elif self.format == bytes:
-	        for dictionary in faceArray:
+		for dictionary in faceArray:
 		    facePercentage.append(json.loads(bytes.fromhex(dictionary)))
 
 		for i in range(len(facePercentage)):
 		    try:
 		        if not precise:
 			    faceRawPercentage.append(round(facePercentage[i]["face"] * 100))
-		        else:
+			else:
 			    faceRawPercentage.append(facePercentage[i]["face"])
 		    except KeyError:
 		        continue
 
-	if self.format == str:
-            return faceStrPercentage
-	elif self.format == bytes:
+        if self.format == str:
+	    return faceStrPercentage
+        elif self.format == bytes:
 	    return faceRawPercentage
-	return facePercentage
+        return facePercentage

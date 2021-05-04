@@ -124,8 +124,8 @@ class deeplens(object):
 		    except KeyError:
 		        continue
 
-	    if self.format == str:
-	        return faceStrPercentage
-	    elif self.format == bytes:
-	        return faceRawPercentage
-	    return facePercentage
+	if self.format == str:
+            return faceStrPercentage
+	elif self.format == bytes:
+	    return faceRawPercentage
+	return facePercentage

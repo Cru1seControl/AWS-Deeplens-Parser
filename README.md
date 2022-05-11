@@ -4,6 +4,13 @@ A simple parser written in python for [Amazon Deeplens](https://aws.amazon.com/d
 This simple parser allows for Amazon Deeplens owners to easily
 parse their downloaded data from the MQTT test client.
 
+# Installation
+
+Install from the PyPi repository
+```bash
+pip install deeplens
+```
+
 ## Usage 
 ```python3
 import deeplens

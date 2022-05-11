@@ -1,7 +1,7 @@
 import json as _json
 
 
-class deeplens(object):
+class dlens(object):
     '''deeplens
     Parse Amazon AWS deeplens json, string, and hexadecimal data.
     '''

@@ -1,11 +1,12 @@
-import json
+import json as _json
+
 
 class deeplens(object):
     '''deeplens
     Parse Amazon AWS deeplens json, string, and hexadecimal data.
     '''
     def __init__(self, d):
-        self.__d = json.loads(d)
+        self.__d = _json.loads(d)
 
     @property
     def qos(self):
@@ -100,7 +101,7 @@ class deeplens(object):
                     continue
         elif self.format == str:
             for dictionary in faceArray:
-                facePercentage.append(json.loads(dictionary))
+                facePercentage.append(_json.loads(dictionary))
             
             for i in range(len(facePercentage)):
                 try:
